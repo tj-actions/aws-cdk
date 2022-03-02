@@ -15,8 +15,23 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: shellcheck
-        uses: reviewdog/action-shellcheck@v1
+
+      - name: Setup go
+        uses: actions/setup-go@v3
+        with:
+          go-version: '1.17.5'
+
+      - uses: actions/cache@v2
+        with:
+          path: ~/go/pkg/mod
+          key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-go-
+
+      - name: Install dependencies
+        run: go install
+        working-directory: test
+
       - name: Test cdk synth using the latest version
         uses: ./
         with:
@@ -24,6 +39,7 @@ jobs:
           cdk_version: "1.16.2"
           cdk_stack: "TestStack"
           working_dir: "test"
+
       - name: Test cdk synth using 1.16.2
         uses: ./
         with:
