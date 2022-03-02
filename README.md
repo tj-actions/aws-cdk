@@ -1,9 +1,8 @@
 [![CI](https://github.com/tj-actions/aws-cdk/workflows/CI/badge.svg)](https://github.com/tj-actions/aws-cdk/actions?query=workflow%3ACI)
 [![Update release version.](https://github.com/tj-actions/aws-cdk/workflows/Update%20release%20version./badge.svg)](https://github.com/tj-actions/aws-cdk/actions?query=workflow%3A%22Update+release+version.%22)
-[![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-tj-actions1.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Faws-cdk%26badge%3Dtrue)](https://github.com/search?o=desc&q=tj-actions+aws-cdk+path%3A.github%2Fworkflows+language%3AYAML&s=&type=Code)
+[![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-tj-actions1.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Faws-cdk%26badge%3Dtrue)](https://github.com/search?o=desc\&q=tj-actions+aws-cdk+path%3A.github%2Fworkflows+language%3AYAML\&s=\&type=Code)
 
-aws-cdk
--------
+## aws-cdk
 
 Run aws-cdk commands
 
@@ -45,43 +44,44 @@ Run aws-cdk commands
           AWS_DEFAULT_REGION: "us-east-1"
 ```
 
-
 ## Inputs
 
-|   Input       |    type    |  required     |  default                      |  description  |
-|:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
-| token         |  `string`   |    `true`    | `${{ github.token }}` | [GITHUB_TOKEN](https://docs.github.com/en/free-pro-team@latest/actions/reference/authentication-in-a-workflow#using-the-github_token-in-a-workflow) <br /> or a repo scoped <br /> [Personal Access Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)              |
+<!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
+|     INPUT      |  TYPE  | REQUIRED |  DEFAULT   |            DESCRIPTION             |
+|----------------|--------|----------|------------|------------------------------------|
+| cdk\_extra\_args | string | false    |            | AWS CDK subcommand arguments.      |
+| cdk\_stack      | string | false    | `"*"`      | AWS CDK stack name to<br>execute.  |
+| cdk\_subcommand | string | true     |            | AWS CDK subcommand to execute.<br> |
+| cdk\_version    | string | false    | `"latest"` | AWS CDK version to install.<br>    |
+| working\_dir    | string | false    | `"."`      | AWS CDK working directory.         |
 
-* Free software: [MIT license](LICENSE)
+<!-- AUTO-DOC-INPUT:END -->
+
+*   Free software: [MIT license](LICENSE)
 
 If you feel generous and want to show some extra appreciation:
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
 [buymeacoffee]: https://www.buymeacoffee.com/jackton1
+
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
 
+## Features
 
+*   TODO
 
-Features
---------
-
-* TODO
-
-
-Credits
--------
+## Credits
 
 This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) using [cookiecutter-action](https://github.com/tj-actions/cookiecutter-action)
 
-Report Bugs
------------
+## Report Bugs
 
 Report bugs at https://github.com/tj-actions/aws-cdk/issues.
 
 If you are reporting a bug, please include:
 
-* Your operating system name and version.
-* Any details about your workflow that might be helpful in troubleshooting.
-* Detailed steps to reproduce the bug.
+*   Your operating system name and version.
+*   Any details about your workflow that might be helpful in troubleshooting.
+*   Detailed steps to reproduce the bug.
