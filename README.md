@@ -9,6 +9,12 @@ Run [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) com
 ```yaml
 ...
     steps:
+      - uses: actions/checkout@v2
+      ...
+     
+      - name: Install dependencies
+        ...
+
       - name: cdk diff
         uses: tj-actions/aws-cdk@v1
         with:
