@@ -1,0 +1,41 @@
+name: aws-cdk
+description: Run aws-cdk commands
+author: tj-actions
+inputs:
+  cdk_stack:
+    description: 'AWS CDK stack name to execute.'
+    default: '*'
+    required: false
+  cdk_version:
+    description: 'AWS CDK version to install.'
+    default: 'latest'
+    required: false
+  cdk_subcommand:
+    description: 'AWS CDK subcommand to execute.'
+    required: true
+  cdk_extra_args:
+    description: 'AWS CDK subcommand arguments.'
+    required: false
+  working_dir:
+    description: 'AWS CDK working directory.'
+    default: '.'
+    required: false
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Run aws-cdk
+      id: aws-cdk
+      working-directory: ${{ inputs.working_dir }}
+      run: |
+        if [[ "${{ inputs.cdk_version }}" == "latest" ]]; then
+          npm install -g aws-cdk
+        else
+          npm install -g "aws-cdk@${{ inputs.cdk_version }}"
+        fi
+        
+        cdk ${{ inputs.cdk_subcommand }} ${{ inputs.cdk_extra_args }} "${{ inputs.cdk_stack }}"
+      shell: bash
+branding:
+  icon: upload-cloud
+  color: white
