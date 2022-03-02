@@ -1,4 +1,4 @@
-name: aws-cdk
+name: Run aws-cdk
 description: Run aws-cdk commands
 author: tj-actions
 inputs:
