@@ -4,7 +4,7 @@
 
 ## aws-cdk
 
-Run [aws-cdk](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) commands
+Run [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) commands
 
 ```yaml
 ...
