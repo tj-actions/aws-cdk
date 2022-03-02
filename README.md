@@ -58,10 +58,6 @@ Run aws-cdk commands
 
 <!-- AUTO-DOC-INPUT:END -->
 
-|   Input       |    type    |  required     |  default                      |  description  |
-|:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
-| token         |  `string`   |    `true`    | `${{ github.token }}` | [GITHUB\_TOKEN](https://docs.github.com/en/free-pro-team@latest/actions/reference/authentication-in-a-workflow#using-the-github_token-in-a-workflow) <br /> or a repo scoped <br /> [Personal Access Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)              |
-
 *   Free software: [MIT license](LICENSE)
 
 If you feel generous and want to show some extra appreciation:
