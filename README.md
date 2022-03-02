@@ -37,7 +37,7 @@ Run [aws-cdk](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) com
           cdk_subcommand: "deploy"
           cdk_version: "2.13.0"
           cdk_stack: "stack1"
-          cdk_args: "--require-approval never"
+          cdk_extra_args: "--require-approval never"
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
