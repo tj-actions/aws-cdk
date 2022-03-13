@@ -15,11 +15,20 @@ Run [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) com
       - name: Install dependencies
         ...
 
+      - name: cdk bootstrap
+        uses: tj-actions/aws-cdk@v1
+        with:
+          cdk_subcommand: "bootstrap"
+          cdk_stack: "stack1"
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: "us-east-1"
+
       - name: cdk diff
         uses: tj-actions/aws-cdk@v1
         with:
           cdk_subcommand: "diff"
-          cdk_version: "2.13.0"
           cdk_stack: "stack1"
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
@@ -30,7 +39,6 @@ Run [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) com
         uses: tj-actions/aws-cdk@v1
         with:
           cdk_subcommand: "synth"
-          cdk_version: "2.13.0"
           cdk_stack: "stack1"
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
@@ -41,7 +49,6 @@ Run [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) com
         uses: tj-actions/aws-cdk@v1
         with:
           cdk_subcommand: "deploy"
-          cdk_version: "2.13.0"
           cdk_stack: "stack1"
           cdk_extra_args: "--require-approval never"
         env:
