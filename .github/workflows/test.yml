@@ -32,7 +32,7 @@ jobs:
         run: go install
         working-directory: test
       
-      - name: Test cdk synth with stack name
+      - name: Test cdk synth without a stack name
         uses: ./
         with:
           cdk_subcommand: "synth"
