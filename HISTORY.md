@@ -1,5 +1,28 @@
 # Changelog
 
+## [v1.1](https://github.com/tj-actions/aws-cdk/tree/v1.1) (2022-06-03)
+
+[Full Changelog](https://github.com/tj-actions/aws-cdk/compare/v1...v1.1)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#5](https://github.com/tj-actions/aws-cdk/issues/5)
+
+**Merged pull requests:**
+
+- Updated README.md [\#14](https://github.com/tj-actions/aws-cdk/pull/14) ([jackton1](https://github.com/jackton1))
+- feat: add cdk\_pre\_installed input [\#13](https://github.com/tj-actions/aws-cdk/pull/13) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/verify-changed-files action to v9 [\#12](https://github.com/tj-actions/aws-cdk/pull/12) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.2.15 [\#11](https://github.com/tj-actions/aws-cdk/pull/11) ([renovate[bot]](https://github.com/apps/renovate))
+- Update cirrus-actions/rebase action to v1.7 [\#10](https://github.com/tj-actions/aws-cdk/pull/10) ([renovate[bot]](https://github.com/apps/renovate))
+- Update cirrus-actions/rebase action to v1.6 [\#9](https://github.com/tj-actions/aws-cdk/pull/9) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4 [\#8](https://github.com/tj-actions/aws-cdk/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/cache action to v3 [\#7](https://github.com/tj-actions/aws-cdk/pull/7) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.2.14 [\#6](https://github.com/tj-actions/aws-cdk/pull/6) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.13 [\#4](https://github.com/tj-actions/aws-cdk/pull/4) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#3](https://github.com/tj-actions/aws-cdk/pull/3) ([jackton1](https://github.com/jackton1))
+- Upgraded to v1 [\#2](https://github.com/tj-actions/aws-cdk/pull/2) ([jackton1](https://github.com/jackton1))
+
 ## [v1](https://github.com/tj-actions/aws-cdk/tree/v1) (2022-03-02)
 
 [Full Changelog](https://github.com/tj-actions/aws-cdk/compare/6f385069cdec386019b725bc31a2cdab672d203d...v1)
