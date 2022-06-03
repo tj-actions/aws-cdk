@@ -38,9 +38,11 @@ runs:
           else
             npm install -g "aws-cdk@${{ inputs.cdk_version }}"
           fi
+          
+          cdk ${{ inputs.cdk_subcommand }} ${{ inputs.cdk_extra_args }} "${{ inputs.cdk_stack }}"
+        else
+          npx cdk ${{ inputs.cdk_subcommand }} ${{ inputs.cdk_extra_args }} "${{ inputs.cdk_stack }}"
         fi
-        
-        cdk ${{ inputs.cdk_subcommand }} ${{ inputs.cdk_extra_args }} "${{ inputs.cdk_stack }}"
       shell: bash
 branding:
   icon: upload-cloud
