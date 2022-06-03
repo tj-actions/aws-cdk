@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.2](https://github.com/tj-actions/aws-cdk/tree/v1.2) (2022-06-03)
+
+[Full Changelog](https://github.com/tj-actions/aws-cdk/compare/v1.1...v1.2)
+
+**Merged pull requests:**
+
+- Upgraded to v1.1 [\#15](https://github.com/tj-actions/aws-cdk/pull/15) ([jackton1](https://github.com/jackton1))
+
 ## [v1.1](https://github.com/tj-actions/aws-cdk/tree/v1.1) (2022-06-03)
 
 [Full Changelog](https://github.com/tj-actions/aws-cdk/compare/v1...v1.1)
