@@ -1,5 +1,14 @@
 # Changelog
 
+## [v3](https://github.com/tj-actions/aws-cdk/tree/v3) (2022-06-09)
+
+[Full Changelog](https://github.com/tj-actions/aws-cdk/compare/v2...v3)
+
+**Merged pull requests:**
+
+- feat: removed unused input [\#19](https://github.com/tj-actions/aws-cdk/pull/19) ([jackton1](https://github.com/jackton1))
+- Upgraded to v2 [\#18](https://github.com/tj-actions/aws-cdk/pull/18) ([jackton1](https://github.com/jackton1))
+
 ## [v2](https://github.com/tj-actions/aws-cdk/tree/v2) (2022-06-09)
 
 [Full Changelog](https://github.com/tj-actions/aws-cdk/compare/v1.2...v2)
