@@ -31,6 +31,7 @@ runs:
     - name: Wait for stack update-complete
       run: |
         aws cloudformation wait stack-update-complete --stack-name "${{ inputs.cdk_stack }}"
+      shell: bash
 
     - name: Run aws-cdk
       id: aws-cdk
