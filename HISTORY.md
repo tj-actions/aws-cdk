@@ -1,5 +1,14 @@
 # Changelog
 
+## [v2](https://github.com/tj-actions/aws-cdk/tree/v2) (2022-06-09)
+
+[Full Changelog](https://github.com/tj-actions/aws-cdk/compare/v1.2...v2)
+
+**Merged pull requests:**
+
+- feat: add support for waiting for stack update [\#17](https://github.com/tj-actions/aws-cdk/pull/17) ([jackton1](https://github.com/jackton1))
+- Upgraded to v1.2 [\#16](https://github.com/tj-actions/aws-cdk/pull/16) ([jackton1](https://github.com/jackton1))
+
 ## [v1.2](https://github.com/tj-actions/aws-cdk/tree/v1.2) (2022-06-03)
 
 [Full Changelog](https://github.com/tj-actions/aws-cdk/compare/v1.1...v1.2)
