@@ -31,7 +31,7 @@ runs:
     - name: Wait for stack update-complete
       run: |
         if [[ "${{ inputs.cdk_stack }}" != "*" ]]; then
-          aws cloudformation wait stack-update-complete --stack-name "${{ inputs.cdk_stack }}"
+          aws cloudformation wait stack-update-complete --stack-name "${{ inputs.cdk_stack }}" || true
         fi
       shell: bash
 
