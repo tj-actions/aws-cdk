@@ -28,6 +28,13 @@ inputs:
 runs:
   using: 'composite'
   steps:
+    - name: Wait for stack update-complete
+      run: |
+        if [[ "${{ inputs.cdk_stack }}" != "*" ]]; then
+          aws cloudformation wait stack-update-complete --stack-name "${{ inputs.cdk_stack }}" || true
+        fi
+      shell: bash
+
     - name: Run aws-cdk
       id: aws-cdk
       working-directory: ${{ inputs.working_dir }}
