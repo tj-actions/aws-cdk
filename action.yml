@@ -36,8 +36,6 @@ runs:
       id: aws-cdk
       working-directory: ${{ inputs.working_dir }}
       run: |
-        aws cloudformation wait stack-update-complete --stack-name OrangeAwards
-        
         if [[ "${{ inputs.cdk_pre_installed }}" == "false" ]]; then
           if [[ "${{ inputs.cdk_version }}" == "latest" ]]; then
             npm install -g aws-cdk
