@@ -17,7 +17,7 @@ inputs:
     description: 'AWS CDK subcommand arguments.'
     required: false
   working_dir:
-    description: 'AWS CDK working directory.'
+    description: 'Working directory.'
     default: '.'
     required: false
 
