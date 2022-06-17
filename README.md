@@ -74,7 +74,7 @@ Run [aws cdk](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) com
 | cdk\_stack      | string | false    | `"*"`      | AWS CDK stack name to<br>execute.  |
 | cdk\_subcommand | string | true     |            | AWS CDK subcommand to execute.<br> |
 | cdk\_version    | string | false    | `"latest"` | AWS CDK version to install.<br>    |
-| working\_dir    | string | false    | `"."`      | AWS CDK working directory.         |
+| working\_dir    | string | false    | `"."`      | Working directory.                 |
 
 <!-- AUTO-DOC-INPUT:END -->
 
