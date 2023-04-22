@@ -23,7 +23,7 @@ Run [aws cdk](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) com
         ...
 
       - name: cdk bootstrap
-        uses: tj-actions/aws-cdk@v3
+        uses: tj-actions/aws-cdk@v4
         with:
           cdk_subcommand: "bootstrap"
           cdk_stack: "stack1"
@@ -33,7 +33,7 @@ Run [aws cdk](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) com
           AWS_DEFAULT_REGION: "us-east-1"
 
       - name: cdk diff
-        uses: tj-actions/aws-cdk@v3
+        uses: tj-actions/aws-cdk@v4
         with:
           cdk_subcommand: "diff"
           cdk_stack: "stack1"
@@ -43,7 +43,7 @@ Run [aws cdk](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) com
           AWS_DEFAULT_REGION: "us-east-1"
 
       - name: cdk synth
-        uses: tj-actions/aws-cdk@v3
+        uses: tj-actions/aws-cdk@v4
         with:
           cdk_subcommand: "synth"
           cdk_stack: "stack1"
@@ -53,7 +53,7 @@ Run [aws cdk](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) com
           AWS_DEFAULT_REGION: "us-east-1"
 
       - name: cdk deploy
-        uses: tj-actions/aws-cdk@v3
+        uses: tj-actions/aws-cdk@v4
         with:
           cdk_subcommand: "deploy"
           cdk_stack: "stack1"
