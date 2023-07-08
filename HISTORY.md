@@ -1,5 +1,34 @@
 # Changelog
 
+# [4.0.1](https://github.com/tj-actions/aws-cdk/compare/v4.0.0...v4.0.1) - (2023-07-05)
+
+## <!-- 26 -->🔄 Update
+
+- Updated renovate.json ([d85bfd6](https://github.com/tj-actions/aws-cdk/commit/d85bfd6c1c5967cac7d9532d1c8cb72defcc4ee3))  - (Tonye Jack)
+- Update tj-actions/verify-changed-files action to v16 ([f35be97](https://github.com/tj-actions/aws-cdk/commit/f35be9735abc92f159c6266614e0088210b076a5))  - (renovate[bot])
+- Update peter-evans/create-pull-request action to v5.0.2 ([487169d](https://github.com/tj-actions/aws-cdk/commit/487169de860f72c33b0f33297d23288939d31a87))  - (renovate[bot])
+- Updated README.md
+ ([b7d3916](https://github.com/tj-actions/aws-cdk/commit/b7d3916ad86eb3ae0ecbf52700b3492bedcef4d0))  - (repo-ranger[bot])
+- Update tj-actions/verify-changed-files action to v15 ([ea726db](https://github.com/tj-actions/aws-cdk/commit/ea726db2b6c518ff73ba059992191b2c82a9fa3f))  - (renovate[bot])
+- Updated README.md
+ ([444e70a](https://github.com/tj-actions/aws-cdk/commit/444e70a058e589d1ad5f550564b05383cba6ad37))  - (repo-ranger[bot])
+- Update peter-evans/create-pull-request action to v5.0.1 ([4f9e2db](https://github.com/tj-actions/aws-cdk/commit/4f9e2db88c4e22c306795fd15ff2b1b708dc9376))  - (renovate[bot])
+
+## <!-- 30 -->📝 Other
+
+- PR [#73](https://github.com/tj-actions/aws-cdk/pull/73): tj-actions/verify-changed-files action to v16 ([2d86053](https://github.com/tj-actions/aws-cdk/commit/2d86053ec301d58e365a23120a6ba77756316ac9))  - (repo-ranger[bot])
+- PR [#72](https://github.com/tj-actions/aws-cdk/pull/72): peter-evans/create-pull-request action to v5.0.2 ([a71ac1d](https://github.com/tj-actions/aws-cdk/commit/a71ac1d6d0c04cf3ddaa35177cd8f873abdc4877))  - (repo-ranger[bot])
+- PR [#71](https://github.com/tj-actions/aws-cdk/pull/71): README.md ([1807830](https://github.com/tj-actions/aws-cdk/commit/18078309c54536fbe47ee57e29e13dd3619d8c17))  - (repo-ranger[bot])
+- PR [#70](https://github.com/tj-actions/aws-cdk/pull/70): tj-actions/verify-changed-files action to v15 ([0d4a5da](https://github.com/tj-actions/aws-cdk/commit/0d4a5da3e8747369fad547c4c2b26e0ff8fec38f))  - (repo-ranger[bot])
+- PR [#69](https://github.com/tj-actions/aws-cdk/pull/69): README.md ([5e991d6](https://github.com/tj-actions/aws-cdk/commit/5e991d61ac0906692529450d54d1191022c2ead7))  - (repo-ranger[bot])
+- PR [#68](https://github.com/tj-actions/aws-cdk/pull/68): peter-evans/create-pull-request action to v5.0.1 ([32a7a44](https://github.com/tj-actions/aws-cdk/commit/32a7a44000296fd9753b48d96e34ba563d75d52f))  - (repo-ranger[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded to v4 ([#67](https://github.com/tj-actions/aws-cdk/issues/67))
+
+Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([dc07512](https://github.com/tj-actions/aws-cdk/commit/dc0751272317f2e894a712e4192ac753cbeaad92))  - (Tonye Jack)
+
 # [4.0.0](https://github.com/tj-actions/aws-cdk/compare/v2...v4.0.0) - (2023-04-21)
 
 ## <!-- 0 -->🚀 Features
