@@ -71,13 +71,13 @@ Run [aws cdk](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) com
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|     INPUT      |  TYPE  | REQUIRED |  DEFAULT   |             DESCRIPTION             |
-|----------------|--------|----------|------------|-------------------------------------|
-| cdk\_extra\_args | string |  false   |            |    AWS CDK subcommand arguments.    |
-|   cdk\_stack    | string |  false   |   `"*"`    | AWS CDK stack name to <br>execute.  |
-| cdk\_subcommand | string |   true   |            |   AWS CDK subcommand to execute.    |
-|  cdk\_version   | string |  false   | `"latest"` |     AWS CDK version to install.     |
-|  working\_dir   | string |  false   |   `"."`    |         Working directory.          |
+|                                   INPUT                                    |  TYPE  | REQUIRED |  DEFAULT   |             DESCRIPTION             |
+|----------------------------------------------------------------------------|--------|----------|------------|-------------------------------------|
+| <a name="input_cdk_extra_args"></a>[cdk\_extra\_args](#input_cdk_extra_args) | string |  false   |            |    AWS CDK subcommand arguments.    |
+|        <a name="input_cdk_stack"></a>[cdk\_stack](#input_cdk_stack)         | string |  false   |   `"*"`    | AWS CDK stack name to <br>execute.  |
+| <a name="input_cdk_subcommand"></a>[cdk\_subcommand](#input_cdk_subcommand) | string |   true   |            |   AWS CDK subcommand to execute.    |
+|     <a name="input_cdk_version"></a>[cdk\_version](#input_cdk_version)      | string |  false   | `"latest"` |     AWS CDK version to install.     |
+|     <a name="input_working_dir"></a>[working\_dir](#input_working_dir)      | string |  false   |   `"."`    |         Working directory.          |
 
 <!-- AUTO-DOC-INPUT:END -->
 
