@@ -31,7 +31,7 @@ runs:
       working-directory: ${{ inputs.working_dir }}
       run: |
         if [[ "${{ inputs.cdk_stack }}" != "*" ]]; then
-          aws cloudformation wait stack-update-complete --stack-name "${{ inputs.cdk_stack }}" 2>/dev/null || true
+          aws cloudformation --verbose wait stack-update-complete --stack-name "${{ inputs.cdk_stack }}" 2>/dev/null || true
         fi
       shell: bash
 
@@ -39,7 +39,7 @@ runs:
       id: aws-cdk
       working-directory: ${{ inputs.working_dir }}
       run: |
-        npx -y cdk@${{ inputs.cdk_version }} ${{ inputs.cdk_subcommand }} ${{ inputs.cdk_extra_args }} "${{ inputs.cdk_stack }}"
+        npx -y cdk@${{ inputs.cdk_version }} ${{ inputs.cdk_subcommand }} --verbose ${{ inputs.cdk_extra_args }} "${{ inputs.cdk_stack }}"
       shell: bash
 branding:
   icon: upload-cloud
