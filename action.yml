@@ -24,6 +24,9 @@ inputs:
 runs:
   using: 'composite'
   steps:
+    - name: Create the AWS Credential file if required
+      run: touch ~/.aws/credentials
+      shell: bash
     - name: Wait for stack update-complete
       working-directory: ${{ inputs.working_dir }}
       run: |
