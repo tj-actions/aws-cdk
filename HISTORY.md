@@ -1,5 +1,48 @@
 # Changelog
 
+# [4.0.2](https://github.com/tj-actions/aws-cdk/compare/v4.0.1...v4.0.2) - (2023-11-28)
+
+## <!-- 1 -->🐛 Bug Fixes
+
+- Long wait when the stack doesn't require wating for update in progress ([#82](https://github.com/tj-actions/aws-cdk/issues/82)) ([ae17f74](https://github.com/tj-actions/aws-cdk/commit/ae17f74cf8d302abe5c0d637f0d04f9b8ab2ad43))  - (Tonye Jack)
+
+## <!-- 16 -->➕ Add
+
+- Added .github/FUNDING.yml ([9bf6ecd](https://github.com/tj-actions/aws-cdk/commit/9bf6ecdae84ea8ebaa5ea860ec68b4ea46d4dd63))  - (Tonye Jack)
+
+## <!-- 17 -->➖ Remove
+
+- Deleted .github/ISSUE_TEMPLATE/feature_request.yaml ([7d4ee44](https://github.com/tj-actions/aws-cdk/commit/7d4ee44cee0282d8fef417a7794424fbd10a7535))  - (Tonye Jack)
+- Deleted .github/ISSUE_TEMPLATE/bug_report.yaml ([0976e4d](https://github.com/tj-actions/aws-cdk/commit/0976e4d50a72c0ce0a6e4d490008fbaff61f61b0))  - (Tonye Jack)
+- Deleted .github/FUNDING.yml ([97dcea1](https://github.com/tj-actions/aws-cdk/commit/97dcea16fe0240231f8b360329c49a958cda9e72))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Update greetings.yml ([cb93c18](https://github.com/tj-actions/aws-cdk/commit/cb93c18e5f30f49c426d3e88777876198367cef9))  - (Tonye Jack)
+- Update actions/checkout digest to b4ffde6 ([d1b56a2](https://github.com/tj-actions/aws-cdk/commit/d1b56a22775e0bed9eee3bff0984b193852bf2fc))  - (renovate[bot])
+- Update actions/checkout digest to 8ade135 ([ead31c7](https://github.com/tj-actions/aws-cdk/commit/ead31c74d84428b233fa59d30e1016fddbe2f1f3))  - (renovate[bot])
+- Update actions/checkout action to v4 ([17c3263](https://github.com/tj-actions/aws-cdk/commit/17c32634c85caccb7167a89971e91c0f45656f31))  - (renovate[bot])
+- Update tj-actions/release-tagger action to v4 ([f0744d6](https://github.com/tj-actions/aws-cdk/commit/f0744d670460a78a4c8788615416d9db41b6c86d))  - (renovate[bot])
+- Updated README.md
+ ([261463f](https://github.com/tj-actions/aws-cdk/commit/261463fe88f940199d935cd6541548dc288f6713))  - (repo-ranger[bot])
+- Update tj-actions/auto-doc action to v3 ([9f467f1](https://github.com/tj-actions/aws-cdk/commit/9f467f1963349bfd634c694f999a78b343a41c46))  - (renovate[bot])
+- Update README.md ([190ff15](https://github.com/tj-actions/aws-cdk/commit/190ff15d338b5bbfd5a22ba03d58243e5b17a67d))  - (Tonye Jack)
+
+## <!-- 30 -->📝 Other
+
+- PR [#80](https://github.com/tj-actions/aws-cdk/pull/80): actions/checkout digest to b4ffde6 ([799f552](https://github.com/tj-actions/aws-cdk/commit/799f552c291df5443d87b9755c7ccc4ae7287f9a))  - (repo-ranger[bot])
+- PR [#79](https://github.com/tj-actions/aws-cdk/pull/79): actions/checkout digest to 8ade135 ([0c27e4f](https://github.com/tj-actions/aws-cdk/commit/0c27e4f4c646d628c3ae6ab447ac85c0f491495f))  - (repo-ranger[bot])
+- PR [#78](https://github.com/tj-actions/aws-cdk/pull/78): actions/checkout action to v4 ([904b3f5](https://github.com/tj-actions/aws-cdk/commit/904b3f5269017193d68c8d8bb8fcf52cc149ff0f))  - (repo-ranger[bot])
+- PR [#77](https://github.com/tj-actions/aws-cdk/pull/77): tj-actions/release-tagger action to v4 ([609e557](https://github.com/tj-actions/aws-cdk/commit/609e557d1348e7543b6d8bfbce7209e472822bec))  - (repo-ranger[bot])
+- PR [#76](https://github.com/tj-actions/aws-cdk/pull/76): README.md ([c3086cc](https://github.com/tj-actions/aws-cdk/commit/c3086cc2c75160fbbb0bc758a3b14fac575b759f))  - (repo-ranger[bot])
+- PR [#75](https://github.com/tj-actions/aws-cdk/pull/75): tj-actions/auto-doc action to v3 ([26e8db5](https://github.com/tj-actions/aws-cdk/commit/26e8db5a3aee71f269a82f6327830f2a49ea66f1))  - (repo-ranger[bot])
+- PR [#74](https://github.com/tj-actions/aws-cdk/pull/74): to v4.0.1 ([a562488](https://github.com/tj-actions/aws-cdk/commit/a562488e87d2e88b8ed49015f9cea6957cf76484))  - (repo-ranger[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v4.0.0 -> v4.0.1
+ ([d03f17b](https://github.com/tj-actions/aws-cdk/commit/d03f17b6bfccbdc248e7a1e4c6f9d57834a41f94))  - (jackton1)
+
 # [4.0.1](https://github.com/tj-actions/aws-cdk/compare/v4.0.0...v4.0.1) - (2023-07-05)
 
 ## <!-- 26 -->🔄 Update
