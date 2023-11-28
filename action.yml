@@ -24,12 +24,23 @@ inputs:
 runs:
   using: 'composite'
   steps:
+    - name: Check stack status
+      id: check
+      working-directory: ${{ inputs.working_dir }}
+      if: inputs.cdk_stack != '*'
+      run: |
+        stack_status=$(aws cloudformation describe-stacks --stack-name "${{ inputs.cdk_stack }}" --query 'Stacks[0].StackStatus' --output text)
+        echo "Stack status: $stack_status"
+        echo "stack_status=$stack_status" >> $GITHUB_OUTPUT
+      shell: bash
+
     - name: Wait for stack update-complete
       working-directory: ${{ inputs.working_dir }}
+      if: steps.check.outputs.stack_status == 'UPDATE_IN_PROGRESS'
       run: |
-        if [[ "${{ inputs.cdk_stack }}" != "*" ]]; then
-          aws cloudformation wait stack-update-complete --stack-name "${{ inputs.cdk_stack }}" 2>/dev/null || true
-        fi
+        echo "Waiting for "${{ inputs.cdk_stack }}" to complete updating..."
+        aws cloudformation wait stack-update-complete --stack-name "${{ inputs.cdk_stack }}" 
+        echo "${{ inputs.cdk_stack }} updated"
       shell: bash
 
     - name: Run aws-cdk
