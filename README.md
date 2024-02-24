@@ -16,7 +16,7 @@ Run [aws cdk](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) com
 ```yaml
 ...
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         ...
      
       - name: Install dependencies
