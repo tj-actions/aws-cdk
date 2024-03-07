@@ -1,5 +1,59 @@
 # Changelog
 
+# [4.0.3](https://github.com/tj-actions/aws-cdk/compare/v4.0.2...v4.0.3) - (2024-03-07)
+
+## <!-- 1 -->🐛 Bug Fixes
+
+- Error checking stack status when / is included in the stack name ([#94](https://github.com/tj-actions/aws-cdk/issues/94)) ([1409497](https://github.com/tj-actions/aws-cdk/commit/140949752c3510193eb0aeecc5671529db82b0a1))  - (Tonye Jack)
+
+## <!-- 17 -->➖ Remove
+
+- Deleted .github/workflows/auto-approve.yml ([189f2c8](https://github.com/tj-actions/aws-cdk/commit/189f2c80d906d661c7824c213c581f29fc0714ac))  - (Tonye Jack)
+- Deleted .github/workflows/greetings.yml ([5d76cb3](https://github.com/tj-actions/aws-cdk/commit/5d76cb3bf2570dfd6ba205487ab31a344da6b29e))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md ([#96](https://github.com/tj-actions/aws-cdk/issues/96))
+
+Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([6a9ef2a](https://github.com/tj-actions/aws-cdk/commit/6a9ef2a6b5395dc9f4aeefde64dd4ce8a95f8380))  - (tj-actions[bot])
+- Update README.md ([993e6a7](https://github.com/tj-actions/aws-cdk/commit/993e6a74ad6776e2891dfa2b85e1c0f1fd4d493a))  - (Tonye Jack)
+- Update README.md ([82efcdb](https://github.com/tj-actions/aws-cdk/commit/82efcdb6216b1464f4ce001f876e209a81d9c516))  - (Tonye Jack)
+
+## <!-- 3 -->📚 Documentation
+
+- Add boidolr as a contributor for doc ([#95](https://github.com/tj-actions/aws-cdk/issues/95)) ([e69fa88](https://github.com/tj-actions/aws-cdk/commit/e69fa883db62d2b6accb0ff789dcfe431c51d0ae))  - (allcontributors[bot])
+- Update checkout action ([#93](https://github.com/tj-actions/aws-cdk/issues/93)) ([184b7bb](https://github.com/tj-actions/aws-cdk/commit/184b7bb364248155e0204ffb3390fc34575847a5))  - (Raphael Boidol)
+
+## <!-- 30 -->📝 Other
+
+- PR [#92](https://github.com/tj-actions/aws-cdk/pull/92): update tj-actions/verify-changed-files action to v19 ([7e86375](https://github.com/tj-actions/aws-cdk/commit/7e8637561e06c811b8d79b6eaa4ce7998b2d0984))  - (repo-ranger[bot])
+- PR [#91](https://github.com/tj-actions/aws-cdk/pull/91): update peter-evans/create-pull-request action to v6.0.1 ([b4e5b83](https://github.com/tj-actions/aws-cdk/commit/b4e5b836b5747b81534e5b4a267c7fd632cb8f17))  - (repo-ranger[bot])
+- PR [#90](https://github.com/tj-actions/aws-cdk/pull/90): update codacy/codacy-analysis-cli-action action to v4.4.0 ([381c296](https://github.com/tj-actions/aws-cdk/commit/381c2964b408d0917ea26edba16db53c9f7f6b47))  - (repo-ranger[bot])
+- PR [#89](https://github.com/tj-actions/aws-cdk/pull/89): update tj-actions/verify-changed-files action to v18 ([072342e](https://github.com/tj-actions/aws-cdk/commit/072342e6a9c23c8d2265a398e1d0f8b32788a625))  - (repo-ranger[bot])
+- PR [#88](https://github.com/tj-actions/aws-cdk/pull/88): update peter-evans/create-pull-request action to v6 ([9d30111](https://github.com/tj-actions/aws-cdk/commit/9d30111c2435475059636ecce875eec2ea297c88))  - (repo-ranger[bot])
+- PR [#87](https://github.com/tj-actions/aws-cdk/pull/87): update actions/cache action to v4 ([4db3446](https://github.com/tj-actions/aws-cdk/commit/4db344621df2d76707df26362c45c5afe54ef1d9))  - (repo-ranger[bot])
+- PR [#86](https://github.com/tj-actions/aws-cdk/pull/86): update tj-actions/verify-changed-files action to v17 ([982c5d3](https://github.com/tj-actions/aws-cdk/commit/982c5d3c06c06a64d518fc204d6ef37d93708e28))  - (repo-ranger[bot])
+- PR [#85](https://github.com/tj-actions/aws-cdk/pull/85): update github/codeql-action action to v3 ([a434cd8](https://github.com/tj-actions/aws-cdk/commit/a434cd848d254c3fd519d2244fa536dea8c4575f))  - (repo-ranger[bot])
+- PR [#84](https://github.com/tj-actions/aws-cdk/pull/84): update actions/setup-go action to v5 ([a19bb9f](https://github.com/tj-actions/aws-cdk/commit/a19bb9ff9dcb7423b3c0e4df99d3dd08f48569a7))  - (repo-ranger[bot])
+- PR [#83](https://github.com/tj-actions/aws-cdk/pull/83): to v4.0.2 ([45efb1c](https://github.com/tj-actions/aws-cdk/commit/45efb1c332a8b486325e4fbf6b49509437bf38d4))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- **deps:** Update tj-actions/verify-changed-files action to v19 ([2fac1b7](https://github.com/tj-actions/aws-cdk/commit/2fac1b7f2e184d263b6fba3ee204b3e86e94cd04))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.0.1 ([98a46b6](https://github.com/tj-actions/aws-cdk/commit/98a46b68da48ad6e53ffaae21cee33e1a230dd1d))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.0 ([e183024](https://github.com/tj-actions/aws-cdk/commit/e1830246a00ffd52a0a516b8ba20f45d4c321331))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v18 ([a68500d](https://github.com/tj-actions/aws-cdk/commit/a68500df7566048967836c320169af9a5ab12a75))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6 ([f7112ec](https://github.com/tj-actions/aws-cdk/commit/f7112ecc8b4589f3a5803ba28b3c966770b2668a))  - (renovate[bot])
+- **deps:** Update actions/cache action to v4 ([e2ceb3e](https://github.com/tj-actions/aws-cdk/commit/e2ceb3ecd6d35435e2569b0846f1db0b5c749df1))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v17 ([91d3133](https://github.com/tj-actions/aws-cdk/commit/91d31332dc555057b2d1e7d09da3b5a69640f858))  - (renovate[bot])
+- **deps:** Update github/codeql-action action to v3 ([fc37484](https://github.com/tj-actions/aws-cdk/commit/fc3748485982fe64e1eb6011fc55719118f8fb83))  - (renovate[bot])
+- **deps:** Update actions/setup-go action to v5 ([da4944c](https://github.com/tj-actions/aws-cdk/commit/da4944c48532eb5366a29c2c0ce3cd982cb4cf2a))  - (renovate[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v4.0.1 -> v4.0.2
+ ([8fbc5eb](https://github.com/tj-actions/aws-cdk/commit/8fbc5ebb7970975e936c72447e6cf10ace4317a9))  - (jackton1)
+
 # [4.0.2](https://github.com/tj-actions/aws-cdk/compare/v4.0.1...v4.0.2) - (2023-11-28)
 
 ## <!-- 1 -->🐛 Bug Fixes
@@ -89,8 +143,8 @@ Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([dc07512](https://
 - Update sync-release-version.yml ([a2ba2cb](https://github.com/tj-actions/aws-cdk/commit/a2ba2cb168df8020704b98a520c8d841e2b11d3e))  - (Tonye Jack)
 - Update renovate.json ([84d3c66](https://github.com/tj-actions/aws-cdk/commit/84d3c6634ad9a21dcbbda3e1712ca598add5b879))  - (Tonye Jack)
 - Update peter-evans/create-pull-request action to v5 ([19e02ee](https://github.com/tj-actions/aws-cdk/commit/19e02ee36c07ad98804c2e384e6c2359f7bdd51e))  - (renovate[bot])
-- Update tj-actions/verify-changed-files action to v14 ([bc6430b](https://github.com/tj-actions/aws-cdk/commit/bc6430bc1c2911b7350f5bcef795b57379935767))  - (renovate[bot])
 - Update tj-actions/release-tagger action to v3 ([aa45cc9](https://github.com/tj-actions/aws-cdk/commit/aa45cc99d8e380ea63fc42ab1393fc2c22611714))  - (renovate[bot])
+- Update tj-actions/verify-changed-files action to v14 ([bc6430b](https://github.com/tj-actions/aws-cdk/commit/bc6430bc1c2911b7350f5bcef795b57379935767))  - (renovate[bot])
 - Update actions/setup-go action to v4 ([ff99460](https://github.com/tj-actions/aws-cdk/commit/ff99460a230c7bb5f76b39e3febe3c48abe59f14))  - (renovate[bot])
 - Update tj-actions/auto-doc action to v2 ([a04568c](https://github.com/tj-actions/aws-cdk/commit/a04568c2885e93430c84b6ce0bc8c5d847a24851))  - (renovate[bot])
 - Update peter-evans/create-pull-request action to v4.2.4 ([31059b6](https://github.com/tj-actions/aws-cdk/commit/31059b639823fb1b9009796d5d66c9ce5a0f28de))  - (renovate[bot])
@@ -106,9 +160,9 @@ Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([dc07512](https://
 - Updated README.md
  ([3dc7aad](https://github.com/tj-actions/aws-cdk/commit/3dc7aada76c59e98c2a9f9392276f094cd51ba8c))  - (renovate[bot])
 - Update tj-actions/auto-doc action to v1.7.3 ([9aee280](https://github.com/tj-actions/aws-cdk/commit/9aee280f15e699be7058591737dbf3552a5840b0))  - (renovate[bot])
-- Update tj-actions/auto-doc action to v1.7.2 ([73d14af](https://github.com/tj-actions/aws-cdk/commit/73d14afc1ceb2af28ba96fa4b5cb7e4000ec57c5))  - (renovate[bot])
 - Updated README.md
  ([1978227](https://github.com/tj-actions/aws-cdk/commit/1978227d8999599d577a326e72d45f7df65fe9ff))  - (renovate[bot])
+- Update tj-actions/auto-doc action to v1.7.2 ([73d14af](https://github.com/tj-actions/aws-cdk/commit/73d14afc1ceb2af28ba96fa4b5cb7e4000ec57c5))  - (renovate[bot])
 - Update tj-actions/auto-doc action to v1.7.1 ([c002550](https://github.com/tj-actions/aws-cdk/commit/c002550ad8c07f05f41e5a28ff2d85e7b998efef))  - (renovate[bot])
 - Update tj-actions/github-changelog-generator action to v1.17 ([f38ce31](https://github.com/tj-actions/aws-cdk/commit/f38ce31b41ff1069b9e4450c37b18721b004fa63))  - (renovate[bot])
 - Updated README.md
@@ -150,9 +204,9 @@ Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([dc07512](https://
 - Update tj-actions/github-changelog-generator action to v1.14 ([e209c25](https://github.com/tj-actions/aws-cdk/commit/e209c250804fd5db183f4d4a9874951393ba9771))  - (renovate[bot])
 - Updated README.md
  ([7991b2d](https://github.com/tj-actions/aws-cdk/commit/7991b2d66c7517c9906fffb2e20215f2b53c9913))  - (jackton1)
-- Update update-readme.yml ([7c8e6b2](https://github.com/tj-actions/aws-cdk/commit/7c8e6b2d6d4bd60323a3a8d7fe480fc727cf8317))  - (Tonye Jack)
 - Updated README.md
  ([e41420e](https://github.com/tj-actions/aws-cdk/commit/e41420e03158dc95a0e3da05c07e8e4f10c5a101))  - (jackton1)
+- Update update-readme.yml ([7c8e6b2](https://github.com/tj-actions/aws-cdk/commit/7c8e6b2d6d4bd60323a3a8d7fe480fc727cf8317))  - (Tonye Jack)
 - Update action.yml ([c29ca34](https://github.com/tj-actions/aws-cdk/commit/c29ca345ed1b914ca8105bce9f5871e2bf4e4e5e))  - (Tonye Jack)
 - Update tj-actions/verify-changed-files action to v9.2
  ([aae1f93](https://github.com/tj-actions/aws-cdk/commit/aae1f93c038e253bf601ee5a9b7193f956a538c4))  - (Renovate Bot)
@@ -299,14 +353,14 @@ Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([dc07512](https://
 
 ## <!-- 26 -->🔄 Update
 
+- Update action.yml ([65e5db3](https://github.com/tj-actions/aws-cdk/commit/65e5db30cfbdd3bba22934bfae80bab5b2d1818c))  - (Tonye Jack)
 - Updated the cdk_version
  ([80273c8](https://github.com/tj-actions/aws-cdk/commit/80273c8bc30772e7a2309ba355eda93671e0f5b5))  - (Tonye Jack)
-- Update action.yml ([65e5db3](https://github.com/tj-actions/aws-cdk/commit/65e5db30cfbdd3bba22934bfae80bab5b2d1818c))  - (Tonye Jack)
-- Updated test.
- ([b30a20f](https://github.com/tj-actions/aws-cdk/commit/b30a20f21768ba933cbbd2f992a4c68929349b4f))  - (Tonye Jack)
 - Update README.md ([84b5c5e](https://github.com/tj-actions/aws-cdk/commit/84b5c5efc5e96f9fd2dfb6847d85f3d11df6d19e))  - (Tonye Jack)
 - Updated README.md
  ([f7dcac3](https://github.com/tj-actions/aws-cdk/commit/f7dcac3ff37b16b197d4fb6f637e90893b876ce7))  - (jackton1)
+- Updated test.
+ ([b30a20f](https://github.com/tj-actions/aws-cdk/commit/b30a20f21768ba933cbbd2f992a4c68929349b4f))  - (Tonye Jack)
 - Updated test.
  ([318bede](https://github.com/tj-actions/aws-cdk/commit/318bede06283270fbf7d07200db4d840cdde8746))  - (Tonye Jack)
 
