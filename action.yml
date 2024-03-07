@@ -29,18 +29,25 @@ runs:
       working-directory: ${{ inputs.working_dir }}
       if: inputs.cdk_stack != '*'
       run: |
-        stack_status=$(aws cloudformation describe-stacks --stack-name "${{ inputs.cdk_stack }}" --query 'Stacks[0].StackStatus' --output text) 2>/dev/null || true
+        # Original stack name
+        CDK_STACK="${{ inputs.cdk_stack }}"
+
+        # Replace '/' with '-' in the stack name
+        MODIFIED_STACK_NAME="${CDK_STACK//\//-}"
+      
+        stack_status=$(aws cloudformation describe-stacks --stack-name "$MODIFIED_STACK_NAME" --query 'Stacks[0].StackStatus' --output text) 2>/dev/null || true
         echo "Stack status: $stack_status"
         echo "stack_status=$stack_status" >> $GITHUB_OUTPUT
+        echo "stack_name=$MODIFIED_STACK_NAME" >> $GITHUB_OUTPUT
       shell: bash
 
     - name: Wait for stack update-complete
       working-directory: ${{ inputs.working_dir }}
       if: steps.check.outputs.stack_status == 'UPDATE_IN_PROGRESS'
       run: |
-        echo "Waiting for "${{ inputs.cdk_stack }}" to complete updating..."
-        aws cloudformation wait stack-update-complete --stack-name "${{ inputs.cdk_stack }}"  2>/dev/null || true
-        echo "${{ inputs.cdk_stack }} updated"
+        echo "Waiting for "${{ steps.check.outputs.stack_name }}" to complete updating..."
+        aws cloudformation wait stack-update-complete --stack-name "${{ steps.check.outputs.stack_name }}" 2>/dev/null || true
+        echo "${{ steps.check.outputs.stack_name }} update complete"
       shell: bash
 
     - name: Run aws-cdk
