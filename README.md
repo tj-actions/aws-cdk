@@ -1,4 +1,7 @@
 [![CI](https://github.com/tj-actions/aws-cdk/workflows/CI/badge.svg)](https://github.com/tj-actions/aws-cdk/actions?query=workflow%3ACI)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Update release version.](https://github.com/tj-actions/aws-cdk/workflows/Update%20release%20version./badge.svg)](https://github.com/tj-actions/aws-cdk/actions?query=workflow%3A%22Update+release+version.%22)
 [![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fused-by.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Faws-cdk%26badge%3Dtrue)](https://github.com/search?o=desc\&q=tj-actions+aws-cdk+path%3A.github%2Fworkflows+language%3AYAML\&s=\&type=Code)
 
@@ -104,3 +107,25 @@ If you are reporting a bug, please include:
 *   Your operating system name and version.
 *   Any details about your workflow that might be helpful in troubleshooting.
 *   Detailed steps to reproduce the bug.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://home.boidol.dev/"><img src="https://avatars.githubusercontent.com/u/652404?v=4?s=100" width="100px;" alt="Raphael Boidol"/><br /><sub><b>Raphael Boidol</b></sub></a><br /><a href="https://github.com/tj-actions/aws-cdk/commits?author=boidolr" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
