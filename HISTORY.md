@@ -1,5 +1,49 @@
 # Changelog
 
+# [4.1.0](https://github.com/tj-actions/aws-cdk/compare/v4.0.3...v4.1.0) - (2024-08-19)
+
+## <!-- 0 -->🚀 Features
+
+- Add support for CREATE_IN_PROGRESS to reach CREATE_COMPLETE ([#113](https://github.com/tj-actions/aws-cdk/issues/113)) ([b714f27](https://github.com/tj-actions/aws-cdk/commit/b714f278a854385285667c20ac95ca7a93cd20cd))  - (Tonye Jack)
+
+## <!-- 30 -->📝 Other
+
+- PR [#108](https://github.com/tj-actions/aws-cdk/pull/108): update actions/checkout digest to a5ac7e5 ([463eb95](https://github.com/tj-actions/aws-cdk/commit/463eb9576fda605d5b9b0ecf3cc3ebf2fd214185))  - (repo-ranger[bot])
+- PR [#107](https://github.com/tj-actions/aws-cdk/pull/107): update actions/checkout digest to 0ad4b8f ([a34a21b](https://github.com/tj-actions/aws-cdk/commit/a34a21b2480a92c56cb3f554bc5d1553385bdab7))  - (repo-ranger[bot])
+- PR [#106](https://github.com/tj-actions/aws-cdk/pull/106): update actions/checkout digest to 44c2b7a ([b1a1133](https://github.com/tj-actions/aws-cdk/commit/b1a11339abb9c2cdb6075fe164f0573d4cecf87b))  - (repo-ranger[bot])
+- PR [#105](https://github.com/tj-actions/aws-cdk/pull/105): update codacy/codacy-analysis-cli-action action to v4.4.1 ([012cc37](https://github.com/tj-actions/aws-cdk/commit/012cc37705073abd382fa3aca0f63c484197952f))  - (repo-ranger[bot])
+- PR [#104](https://github.com/tj-actions/aws-cdk/pull/104): update tj-actions/verify-changed-files action to v20 ([9e65491](https://github.com/tj-actions/aws-cdk/commit/9e6549102082dd4dda691319bf9b517407e69720))  - (repo-ranger[bot])
+- PR [#103](https://github.com/tj-actions/aws-cdk/pull/103): update actions/checkout digest to 0ad4b8f ([5068c71](https://github.com/tj-actions/aws-cdk/commit/5068c7132bd54d535e34fae41522400c6fef3764))  - (repo-ranger[bot])
+- PR [#102](https://github.com/tj-actions/aws-cdk/pull/102): update peter-evans/create-pull-request action to v6.0.5 ([0dc9ada](https://github.com/tj-actions/aws-cdk/commit/0dc9ada1de14a2b460b0def9c5cb5a0416886ca2))  - (repo-ranger[bot])
+- PR [#101](https://github.com/tj-actions/aws-cdk/pull/101): update actions/checkout digest to 1d96c77 ([24d9ff6](https://github.com/tj-actions/aws-cdk/commit/24d9ff62be3cd1c87586446fb8b7e3ee11a47f15))  - (repo-ranger[bot])
+- PR [#100](https://github.com/tj-actions/aws-cdk/pull/100): update peter-evans/create-pull-request action to v6.0.4 ([9ccde5d](https://github.com/tj-actions/aws-cdk/commit/9ccde5d213bb168726423e104ba654faf4007590))  - (repo-ranger[bot])
+- PR [#99](https://github.com/tj-actions/aws-cdk/pull/99): update peter-evans/create-pull-request action to v6.0.3 ([ccf90ee](https://github.com/tj-actions/aws-cdk/commit/ccf90ee9905c25f29b9c663e38d891d1cbda116f))  - (repo-ranger[bot])
+- PR [#98](https://github.com/tj-actions/aws-cdk/pull/98): update peter-evans/create-pull-request action to v6.0.2 ([9a64c0b](https://github.com/tj-actions/aws-cdk/commit/9a64c0bed75cae40e9bb3302e6df2448b31e4858))  - (repo-ranger[bot])
+- PR [#97](https://github.com/tj-actions/aws-cdk/pull/97): to v4.0.3 ([7463fc9](https://github.com/tj-actions/aws-cdk/commit/7463fc95673620d9d77c1214465f9b688950d16d))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.5 ([f5ccc54](https://github.com/tj-actions/aws-cdk/commit/f5ccc545b7685304fac40412105ca2f6c90306cc))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.4 ([0ae90ed](https://github.com/tj-actions/aws-cdk/commit/0ae90ed1dace57543e9ca86685e6fdbff6e9a01c))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.1.0 ([19da0f9](https://github.com/tj-actions/aws-cdk/commit/19da0f9a9555ed55df93730b1d0909860ef02ee6))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 692973e ([da4b0e0](https://github.com/tj-actions/aws-cdk/commit/da4b0e0c7bcaa3124cf6bf6045101bd632bd66b8))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to a5ac7e5 ([cabd5af](https://github.com/tj-actions/aws-cdk/commit/cabd5af2f45820cfb2d4c71f2a504cc0b6c9d742))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 0ad4b8f ([71a4b98](https://github.com/tj-actions/aws-cdk/commit/71a4b98309e5b59bcdde0fd681fe3e80266214fd))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 44c2b7a ([223fec6](https://github.com/tj-actions/aws-cdk/commit/223fec60712bdf19654a74792f76337a202a6767))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.1 ([0d34a1a](https://github.com/tj-actions/aws-cdk/commit/0d34a1ae4c19f945d2e02fea46094688b802bcfb))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v20 ([c9e0aa8](https://github.com/tj-actions/aws-cdk/commit/c9e0aa802f865625075d0faff2c8e1c000449629))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 0ad4b8f ([0494556](https://github.com/tj-actions/aws-cdk/commit/0494556d8a392b98f056d48ff8fa1a043a6061f8))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.0.5 ([cb539c9](https://github.com/tj-actions/aws-cdk/commit/cb539c93afe3f54b101f3f847b08d8109e7ccc28))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 1d96c77 ([8b06aa3](https://github.com/tj-actions/aws-cdk/commit/8b06aa32774c22db656338de3e84b14ff749b0f2))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.0.4 ([2d9c684](https://github.com/tj-actions/aws-cdk/commit/2d9c684e009abce9447d5a8a7f0f92a2a3069d52))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.0.3 ([1aace34](https://github.com/tj-actions/aws-cdk/commit/1aace3498418e9fd1826cb6f47658a6c609084c4))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.0.2 ([1a295d6](https://github.com/tj-actions/aws-cdk/commit/1a295d6f3fc4bc9c12b182e2e0f076583886e47c))  - (renovate[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v4.0.2 -> v4.0.3
+ ([c96df09](https://github.com/tj-actions/aws-cdk/commit/c96df097c98a90f7c7ee7cefba7088fcb7249793))  - (jackton1)
+
 # [4.0.3](https://github.com/tj-actions/aws-cdk/compare/v4.0.2...v4.0.3) - (2024-03-07)
 
 ## <!-- 1 -->🐛 Bug Fixes
