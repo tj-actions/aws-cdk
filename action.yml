@@ -59,6 +59,15 @@ runs:
         echo "${{ steps.check.outputs.stack_name }} create complete"
       shell: bash
 
+    - name: Wait for stack delete-complete
+      working-directory: ${{ inputs.working_dir }}
+      if: steps.check.outputs.stack_status == 'DELETE_IN_PROGRESS'
+      run: |
+        echo "Waiting for "${{ steps.check.outputs.stack_name }}" to complete deleting..."
+        aws cloudformation wait stack-delete-complete --stack-name "${{ steps.check.outputs.stack_name }}" 2>/dev/null || true
+        echo "${{ steps.check.outputs.stack_name }} delete complete"
+      shell: bash
+
     - name: Run aws-cdk
       id: aws-cdk
       working-directory: ${{ inputs.working_dir }}
