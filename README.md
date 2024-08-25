@@ -19,7 +19,7 @@ Run [aws cdk](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) com
 ## Features
 
 *   Run [aws-cdk](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) with support for downloading the package or running a pre-installed version. (Note: This requires passing the correct value for the `working_dir` input).
-*   Waits for pending stack `UPDATE_COMPLETE` before running new deployments.
+*   Waits for pending stack `(CREATE | UPDATE | DELETE)_IN_PROGRESS` before running new deployments.
 
 ## Usage
 
