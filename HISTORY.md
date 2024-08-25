@@ -1,5 +1,17 @@
 # Changelog
 
+# [4.2.0](https://github.com/tj-actions/aws-cdk/compare/v4.1.0...v4.2.0) - (2024-08-21)
+
+## <!-- 0 -->🚀 Features
+
+- Add support to wait for stack-delete-complete ([#115](https://github.com/tj-actions/aws-cdk/issues/115)) ([e9c2b94](https://github.com/tj-actions/aws-cdk/commit/e9c2b94df8f54b99318ba2728331a54c081874b0))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v4.0.3 -> v4.1.0 ([#114](https://github.com/tj-actions/aws-cdk/issues/114))
+
+Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([7c69ee7](https://github.com/tj-actions/aws-cdk/commit/7c69ee7812da2aefcab55c9938f5639a3e77110c))  - (tj-actions[bot])
+
 # [4.1.0](https://github.com/tj-actions/aws-cdk/compare/v4.0.3...v4.1.0) - (2024-08-19)
 
 ## <!-- 0 -->🚀 Features
